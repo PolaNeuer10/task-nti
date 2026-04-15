@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.continer {
+  width: 100%;
+  border: 1px solid #000;
+}
+.header {
+  background-color: red;
+  font-size: 26px;
+  font-weight: bold;
+  padding: 8px 16px;
+  color: white;
+}
+.header span {
+  font-size: 16px;
+}
+.title {
+  padding: 6px;
+}
+.title p {
+  color: red;
+  margin: 8px 0px;
+}
+.section {
+  text-align: center;
+  width: 95%;
+  margin: auto;
+}
+.section-title {
+  background-color: #b1b1b1;
+  color: black;
+  text-align: left;
+}
+.section-content {
+  background-color: #f0f0f0;
+  font-size: 22px;
+}
+.section-content .row input {
+  width: 400px;
+  margin: 16px;
+  height: 30px;
+}
+.section-content .row select {
+  width: 400px;
+  margin: 16px;
+  height: 30px;
+}
+.row {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.row label {
+  display: inline-block;
+  width: 150px;
+  text-align: right;
+  margin-right: 10px;
+}
+.radio-box {
+  display: inline-block;
+  width: 400px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #fff;
+  text-align: left;
+  border-radius: 15px;
+}
+
+.radio-box input[type="radio"] {
+  width: auto !important;
+  margin: 0 5px 10px 0 !important;
+}
+
+.radio-box label {
+  width: auto !important;
+  display: inline !important;
+  text-align: left !important;
+}
+.section-content .row textarea {
+  width: 400px;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+.buttons-row {
+    text-align: center; 
+    margin-top: 20px;
+    padding-bottom: 30px; 
+}
+
+.btn-reset, .btn-submit {
+    background-color: #cc0000; 
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 0 5px; 
+}
+

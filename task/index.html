@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task Creativa</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="imges/list_task_tasklist_checklist_check_icon_145964.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <div class="continer">
+      <div class="header">JobSearch<span>.com</span></div>
+    </div>
+
+    <div class="title">
+      <h1>Create Your Account</h1>
+      <p>*Required information</p>
+    </div>
+
+    <div class="section">
+      <div class="section-title">
+        <h2>Basic information</h2>
+      </div>
+      <div class="section-content">
+        <div class="row">
+          <label>Email</label>
+          <input name="mail" type="email" />
+        </div>
+        <div class="row">
+          <label>password</label>
+          <input name="password" type="password" />
+        </div>
+        <div class="row">
+          <label>retype password</label>
+          <input name="re-password" type="password" />
+        </div>
+        <div class="row">
+          <label>first name</label>
+          <input name="FName" type="text" />
+        </div>
+        <div class="row">
+          <label>last name</label>
+          <input name="LName" type="text" />
+        </div>
+        <div class="row">
+          <label>Phone Number</label>
+          <input name="PNum" type="text" />
+        </div>
+        <div class="row">
+          <label>Address</label>
+          <input name="Address" type="text" />
+        </div>
+        <div class="row">
+          <label>City</label>
+          <input name="City" type="text" />
+        </div>
+        <div class="row">
+          <label>Province</label>
+          <select name="Province">
+            <option value="alberta">alberta</option>
+            <option value="El-marj">El-marj</option>
+            <option value="Ain Shams">Ain Shams</option>
+          </select>
+        </div>
+        <div class="row">
+          <label>Country</label>
+          <input name="Country" type="text" />
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="section-title">
+        <h2>Education</h2>
+      </div>
+      <div class="section-content">
+        <div class="row">
+          <label>School</label>
+          <input name="School" type="text" />
+        </div>
+        <div class="row">
+          <label>Program</label>
+          <input name="Program" type="text" />
+        </div>
+        <div class="row">
+          <label>Education Level</label>
+          <select name="E-L">
+            <option value="1">level (1)</option>
+            <option value="2">level (2)</option>
+            <option value="3">level (3)</option>
+            <option value="4">level (4)</option>
+          </select>
+        </div>
+
+        <div class="row">
+          <label></label>
+          <div class="radio-box">
+            <p>Education Status</p>
+            <div class="radio-options">
+              <input type="radio" id="graduated" name="edu_status" />
+              <label for="graduated" class="radio-label">Graduated</label><br />
+
+              <input type="radio" id="current" name="edu_status" />
+              <label for="current" class="radio-label">Current Enrolled</label
+              ><br />
+
+              <input type="radio" id="didnot" name="edu_status" />
+              <label for="didnot" class="radio-label">Did Not Graduate</label>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <label>Graduation data</label>
+          <input name="G-D" type="datetime-local" />
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="section-title">
+        <h2>Work Experience</h2>
+      </div>
+      <div class="section-content">
+        <div class="row">
+          <label>Empoly</label>
+          <input name="Empoly" type="text" />
+        </div>
+        <div class="row">
+          <label>Job Title</label>
+          <input name="J-T" type="text" />
+        </div>
+        <div class="row">
+          <label>Job Duty</label>
+          <textarea name="job_duty" rows="4"></textarea>
+        </div>
+        <div class="row">
+          <label>Graduation data</label>
+          <input name="Work-Year" type="text" />
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="section-title">
+        <h2>Attachment</h2>
+      </div>
+      <div class="section-content">
+        <div class="row">
+          <label>Attachment</label>
+          <input name="Empoly" type="file" />
+        </div>
+      </div>
+    </div>
+    <div class="buttons-row">
+      <button type="reset" class="btn-reset">Reset</button>
+      <button type="submit" class="btn-submit">Submit</button>
+    </div>
+  </body>
+</html>
